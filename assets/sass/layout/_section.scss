@@ -1,0 +1,38 @@
+.banner-section{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 47%;
+  height: 190px;
+  background-image: url(../img/image-banner.png);
+  background-repeat: no-repeat;
+}
+
+
+.user_box {
+  background-color: #fff;
+  height: 90px;
+}
+
+.profile_box {
+  padding-top: 20px;
+  text-align: left;
+  padding-bottom: 20px;
+  left: 80px;
+}
+.profile_box-text{
+  top: -58px;
+  position: relative;
+  left: 100px;
+}
+.profile_box-img {
+  border-radius: 50%;
+  width: 11%;
+}
+.card {
+  margin-right: 38px;
+  padding-top: 20px;
+  left: 87px;
+}
+.card-body {
+  padding-left: 0px;
+}

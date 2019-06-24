@@ -1,0 +1,30 @@
+
+.user_box-buttons {
+  padding-top: 30px;
+  text-align: right;
+right: 70px;
+}
+
+.message-button {
+  font-family: $rubik;
+  font-weight: 300;
+  background-color: $light-blue;
+  color: $white;
+  padding-bottom:10px;
+  padding-top:10px;
+  border: 0px;
+  width: 13%;
+  padding-left: 10px;
+}
+
+.follow-button {
+  font-family: $rubik;
+  font-weight: 300;
+  background-color: $salmon;
+  color: $white;
+  padding-bottom:10px;
+  padding-top:10px;
+  border: 0px;
+  width: 13%;
+  margin-left: 12px;
+}
