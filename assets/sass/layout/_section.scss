@@ -44,25 +44,33 @@
 
 @media (max-width: 375px){
 
-.profile_box {
-  left: 50px;
+  .profile_box {
+    left: 50px;
   }
-.banner-section{
-  background-position-y: 47%;
-  height: 75px;
+  .banner-section{
+    background-position-y: 47%;
+    height: 75px;
   }
-.profile_box-img {
-  border-radius: 50%;
-  width: 50%;
+  .profile_box-img {
+    border-radius: 50%;
+    width: 50%;
   }
-.profile_box {
-  padding-top: 12px;
-  text-align: left;
-  padding-bottom: 20px;
-  left: 60px;
+  .profile_box {
+    padding-top: 12px;
+    text-align: left;
+    padding-bottom: 20px;
+    left: 50px;
   }
-.video_section {
-  left:30px;
-}
-
+  .video_section {
+    left:30px;
+  }
+  h1 {
+    padding-left: 65px;
+  }
+  .card {
+    left: 30px;
+  }
+  .fa-search, .fa-video, .fa-plus, .fa-bell {
+    display: none;
+  }
 }

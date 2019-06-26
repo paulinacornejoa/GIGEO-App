@@ -9891,11 +9891,23 @@ ul li {
     padding-top: 12px;
     text-align: left;
     padding-bottom: 20px;
-    left: 60px;
+    left: 50px;
   }
 
   .video_section {
     left: 30px;
+  }
+
+  h1 {
+    padding-left: 65px;
+  }
+
+  .card {
+    left: 30px;
+  }
+
+  .fa-search, .fa-video, .fa-plus, .fa-bell {
+    display: none;
   }
 }
 
