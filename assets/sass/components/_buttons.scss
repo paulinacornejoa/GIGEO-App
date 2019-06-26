@@ -28,3 +28,9 @@ right: 70px;
   width: 13%;
   margin-left: 12px;
 }
+
+@media (max-width: 375px){
+  .user_box-buttons {
+      display: none;
+ }
+}

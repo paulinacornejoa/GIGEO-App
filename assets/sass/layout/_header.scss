@@ -24,3 +24,9 @@ ul li {
   left: 40px;
   top: 18px;
 }
+
+@media (max-width: 375px){
+  .logo-1 {
+    left: 20px;
+  }
+}

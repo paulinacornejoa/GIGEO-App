@@ -9788,6 +9788,11 @@ h4 {
   margin-left: 12px;
 }
 
+@media (max-width: 375px) {
+  .user_box-buttons {
+    display: none;
+  }
+}
 header {
   top: 30px;
   background-color: #fff;
@@ -9818,6 +9823,12 @@ ul li {
   top: 18px;
 }
 
+@media (max-width: 375px) {
+  .logo-1 {
+    left: 20px;
+  }
+}
+/*First section*/
 .banner-section {
   background-repeat: no-repeat;
   background-size: cover;
@@ -9827,6 +9838,7 @@ ul li {
   background-repeat: no-repeat;
 }
 
+/*Div user_box*/
 .user_box {
   background-color: #fff;
   height: 90px;
@@ -9858,6 +9870,33 @@ ul li {
 
 .card-body {
   padding-left: 0px;
+}
+
+@media (max-width: 375px) {
+  .profile_box {
+    left: 50px;
+  }
+
+  .banner-section {
+    background-position-y: 47%;
+    height: 75px;
+  }
+
+  .profile_box-img {
+    border-radius: 50%;
+    width: 50%;
+  }
+
+  .profile_box {
+    padding-top: 12px;
+    text-align: left;
+    padding-bottom: 20px;
+    left: 60px;
+  }
+
+  .video_section {
+    left: 30px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
